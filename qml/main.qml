@@ -11,7 +11,12 @@ Window {
         id: bar1
         text:"Panels"
         onClicked: {
-            boxes.visible = false
+            if (boxes.visible == true) {
+                boxes.visible = false
+            }
+            else {
+                boxes.visible = true
+            }
         }
     }
 
@@ -84,5 +89,6 @@ Window {
     Component.onCompleted:{
         width = Screen.width
         height = Screen.height
+        visible = true
     }
 }
