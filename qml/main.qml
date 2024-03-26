@@ -61,7 +61,6 @@ Window {
             header: bannercomponent
             footer: Rectangle {
                 width: parent.width; height: 30;
-                gradient: clubcolors
             }
             highlight: Rectangle {
                 width: parent.width
@@ -73,7 +72,6 @@ Window {
             Rectangle {
                 id: banner
                 width: parent.width; height: 50
-                gradient: clubcolors
                 border {color: "#9EDDF2"; width: 2}
                 Text {
                     anchors.centerIn: parent
