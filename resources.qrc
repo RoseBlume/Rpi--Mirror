@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>Plugins/Info/index.html</file>
+        <file>Plugins/Disney/index.html</file>
+        <file>Plugins/Netflix/index.html</file>
+        <file>Plugins/Youtube/index.html</file>
+    </qresource>
+</RCC>
