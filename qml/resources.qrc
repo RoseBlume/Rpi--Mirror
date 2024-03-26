@@ -1,11 +1,11 @@
 <RCC>
     <qresource prefix="/">
-        <file>qml/main.qml</file>
-        <file>qml/plugs</file>
         <file>Plugins/Info</file>
         <file>Plugins/Disney</file>
         <file>Plugins/Youtube</file>
         <file>Plugins/Netflix</file>
-		<file>Plugins/Prime</file>
+        <file>qml/main.qml</file>
+        <file>qml/plugs</file>
+
     </qresource>
 </RCC>
